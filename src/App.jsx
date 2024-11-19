@@ -6,6 +6,7 @@ import Contact from "./Pages/Contact/Contact";
 import Ads from "./Sections/ads/Ads";
 import Footer from "./Sections/Footer/Footer";
 import Hero from "./Sections/hero/Hero";
+import Layout from "./Sections/Layout";
 import Nav from "./Sections/Navigation/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -16,7 +17,7 @@ function App() {
         <Ads />
         <Nav />
         <Routes>
-          <Route path="/" element={<Hero />} />
+          <Route path="/" element={<Layout />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} /> */
           <Route path="/categories" element={<Categories />} />
