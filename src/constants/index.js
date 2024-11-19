@@ -6,8 +6,23 @@ import User from "../assets/icons/User.png";
 import star from "../assets/hero/Burst-pucker.png";
 import Ellipse from "../assets/hero/Ellipse.png";
 import hero_img from "../assets/hero/hero_img.png";
+import feature_1 from "../assets/icons/feature_1.png";
+import feature_2 from "../assets/icons/feature_2.png";
+import feature_3 from "../assets/icons/feature_3.png";
 
-export { logo, arrow_down, Search, Shop, User, star, Ellipse, hero_img };
+export {
+  logo,
+  arrow_down,
+  Search,
+  Shop,
+  User,
+  star,
+  Ellipse,
+  hero_img,
+  feature_1,
+  feature_2,
+  feature_3,
+};
 
 export const menus = [
   { id: 1, label: "Home", to: "/", icon: null },
