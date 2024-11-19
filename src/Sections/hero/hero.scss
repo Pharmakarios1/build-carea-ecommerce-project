@@ -46,3 +46,17 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .hero_wrapper{
+        grid-template-columns: 1fr;
+        place-self: center;
+        gap: 2rem;
+        padding-top: 40px;
+        .hero_message{
+         align-items: center;
+        }
+      
+    }
+    
+}

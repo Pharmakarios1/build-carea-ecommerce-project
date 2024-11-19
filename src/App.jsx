@@ -1,4 +1,5 @@
 import "./App.scss";
+import Search from "./components/Search/SearchModal";
 import About from "./Pages/About/About";
 import Categories from "./Pages/Categories/Categories";
 import Contact from "./Pages/Contact/Contact";
