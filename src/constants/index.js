@@ -13,6 +13,7 @@ import best_1 from "../assets/BestSelling/classic_mono.png";
 import best_2 from "../assets/BestSelling/mono_ward.png";
 import best_3 from "../assets/BestSelling/Essential_neut.png";
 import best_4 from "../assets/BestSelling/utraanet.png";
+import cta_img from "../assets/hero/cta_img.png";
 
 export {
   logo,
@@ -26,6 +27,7 @@ export {
   feature_1,
   feature_2,
   feature_3,
+  cta_img,
 };
 
 export const menus = [

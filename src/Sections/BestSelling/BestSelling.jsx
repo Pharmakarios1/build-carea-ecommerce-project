@@ -6,6 +6,10 @@ import Card from "../../components/Card/Card";
 const BestSelling = () => {
   return (
     <Format>
+      <div className="best">
+        <p>Shop Now</p>
+        <h2 className="bestSellingTitle">Best Selling</h2>
+      </div>
       <div className="bestSeller">
         {bestSelling.map((item) => (
           <Card
