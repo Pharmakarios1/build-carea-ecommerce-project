@@ -1,7 +1,8 @@
-import React from "react";
+import "./Footer.scss";
+import Format from "../../components/Format/Format";
 
 const Footer = () => {
-  return <div>Footer</div>;
+  return <Format>Footer</Format>;
 };
 
 export default Footer;

@@ -28,6 +28,7 @@
         display: grid;
         grid-template-columns: repeat(4,1fr);
         place-self: center;
+        gap: 10px;
     }
 }
 
@@ -35,7 +36,6 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    // align-items: center;
 }
 .best p{
     display: flex;

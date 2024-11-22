@@ -1,5 +1,5 @@
 import { Button } from "../../components/Button/Button";
-// import Format from "../../components/Format/Format";
+import Format from "../../components/Format/Format";
 import { cta_img } from "../../constants";
 import "./CTACategory.scss";
 import { useNavigate } from "react-router-dom";
@@ -11,26 +11,26 @@ const CTACategory = () => {
   };
   return (
     <div className="cta_bg">
-      {/* <Format> */}
-      <div className="cta_wrapper">
-        <div className="cta_message">
-          <h1>Browse Our Fashion Paradise!</h1>
-          <p>
-            Step into a world of style and explore our diverse collection of
-            clothing categories.
-          </p>
-          <Button
-            label="Start browsing"
-            className="cta_btn"
-            icon="x"
-            onClick={productList}
-          />
+      <Format>
+        <div className="cta_wrapper">
+          <div className="cta_message">
+            <h1>Browse Our Fashion Paradise!</h1>
+            <p>
+              Step into a world of style and explore our diverse collection of
+              clothing categories.
+            </p>
+            <Button
+              label="Start browsing"
+              className="cta_btn"
+              icon="x"
+              onClick={productList}
+            />
+          </div>
+          <div className="cta_img">
+            <img src={cta_img} alt="cta_img" />
+          </div>
         </div>
-        <div className="cta_img">
-          <img src={cta_img} alt="cta_img" />
-        </div>
-      </div>
-      {/* </Format> */}
+      </Format>
     </div>
   );
 };
