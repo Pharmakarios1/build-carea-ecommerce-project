@@ -14,6 +14,10 @@ import best_2 from "../assets/BestSelling/mono_ward.png";
 import best_3 from "../assets/BestSelling/Essential_neut.png";
 import best_4 from "../assets/BestSelling/utraanet.png";
 import cta_img from "../assets/hero/cta_img.png";
+import sweatshirt from "../assets/ProductList/sweatshirt.png";
+import cozyblack from "../assets/ProductList/cozyblack.png";
+import rawblack from "../assets/ProductList/rawblack.png";
+import mockup from "../assets/ProductList/mockup.png";
 
 export {
   logo,
@@ -37,31 +41,61 @@ export const menus = [
   { id: 4, label: "Contact", to: "/contact", icon: null },
 ];
 
+export const ProductArr = [
+  {
+    id: 1,
+    name: "Elegant Ebony Sweatshirts",
+    availability: "In Stock",
+    price: "$20.00",
+    img: sweatshirt,
+  },
+  {
+    id: 2,
+    name: "Sleak and Cozy Black",
+    availability: "In Stock",
+    price: "$50.00",
+    img: cozyblack,
+  },
+  {
+    id: 3,
+    name: "Raw Black Tees",
+    availability: "In Stock",
+    price: "$90.00",
+    img: rawblack,
+  },
+  {
+    id: 4,
+    name: "MOCKUP Black",
+    availability: "In Stock",
+    price: "$40.00",
+    img: mockup,
+  },
+];
 export const bestSelling = [
   {
     id: 1,
-    name: "T-shirt",
+    name: "Classic Monocrome Tees",
     availability: "In Stock",
     price: "$20.00",
     img: best_1,
   },
   {
     id: 2,
-    name: "T-shirt",
+    name: "Monochrome Wardrobe",
     availability: "In Stock",
     price: "$50.00",
     img: best_2,
   },
   {
     id: 3,
-    name: "T-shirt",
+    name: "Essential Neutrals",
     availability: "In Stock",
     price: "$90.00",
     img: best_3,
   },
   {
     id: 4,
-    name: "T-shirt",
+    name: "UTRAANET Black",
     availability: "In Stock",
     price: "$40.00",
     img: best_4,

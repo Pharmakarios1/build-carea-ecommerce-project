@@ -4,6 +4,7 @@ import BestSelling from "./BestSelling/BestSelling";
 import Format from "../components/Format/Format";
 import CTACategory from "./CTACategory/CTACategory";
 import CTA from "./CTA/CTA";
+import ProductList from "./ProductList/ProductList";
 
 const Layout = () => {
   return (
@@ -12,6 +13,7 @@ const Layout = () => {
       <Feature />
       <BestSelling />
       <CTACategory />
+      <ProductList />
       <CTA />
     </>
   );
