@@ -3,6 +3,7 @@ import Format from "../../components/Format/Format";
 import { hero_img } from "../../constants";
 import { useNavigate } from "react-router-dom";
 import "./hero.scss";
+import { LuArrowRight } from "react-icons/lu";
 
 const Hero = () => {
   const navigation = useNavigate();
@@ -19,7 +20,7 @@ const Hero = () => {
             <Button
               label="View Collection"
               className="hero_btn"
-              icon="x"
+              icon={<LuArrowRight color="white" size={25} />}
               onClick={viewCollection}
             />
           </div>
