@@ -19,6 +19,14 @@ import cozyblack from "../assets/ProductList/cozyblack.png";
 import rawblack from "../assets/ProductList/rawblack.png";
 import mockup from "../assets/ProductList/mockup.png";
 
+import f_logo from "../assets/Footer/f_logo.png";
+import github from "../assets/Footer/github.png";
+import youtube from "../assets/Footer/utube.png";
+import instagram from "../assets/Footer/instagramm.png";
+import master from "../assets/Footer/masterCard.png";
+import amc from "../assets/Footer/amc.png";
+import visa from "../assets/Footer/visa.png";
+
 export {
   logo,
   arrow_down,
@@ -32,6 +40,13 @@ export {
   feature_2,
   feature_3,
   cta_img,
+  f_logo,
+  github,
+  youtube,
+  instagram,
+  master,
+  amc,
+  visa,
 };
 
 export const menus = [
